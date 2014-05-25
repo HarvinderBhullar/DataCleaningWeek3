@@ -64,7 +64,7 @@ run_analysis <- function()
         # and subject, store this into a file
         #
         tidyData  <-  tidyDataSet()
-        write.csv(tidyData, "tidyDataSet.csv")
+        write.csv(tidyData, "tidyDataSet.txt")
         
 }
 
